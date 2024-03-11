@@ -5,6 +5,9 @@ on:
 permissions:
   pull-requests: write
 jobs:
+  my_job:
+  name: deploy to staging
+  runs-on: ubuntu-18.04
   build:
     name: Post welcome comment
     runs-on: ubuntu-latest
